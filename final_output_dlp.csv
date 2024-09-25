@@ -1,0 +1,30 @@
+Questions,Marks
+1 Syntax analysis processes the string of tokens built by ________ todetermine the statement class. 1) Semantic Analyzer2) Lexical Analyzer3) Syntax Analyzer4) None of the above,1
+2 Object code is 1) ready to execute2) output of compiler but not assembler3) Must be loaded before execution4) Must be rewritten before execution,1
+3 LEX is a 1) lexical analyzer generator2) A parser generator3) Code generator – generator4) None of the above,1
+5 A left recursive grammar 1) cannot be LL,1
+6 Mapping of name to storage is called _____ 1) environment 2) state 3) environment & state both 4) none of the above,1
+7 If a grammar is LALR,1
+8 Which of the following expressions have no L-value? 1) a[i+1] 2) a 3) 3 4) *a,1
+9 A pictorial representation of the value computed by each statementin the basic block is 1) tree 2) DAG 3) Graph 4) None of the above,1
+"10 The error of missing right parenthesis in the statement:xyz(a,2*(3+b) is detected in",1
+1) lexical analysis phase2) syntax analysis phase3) code generation phase4) code optimization phase 11 ___ maintain the activation record of all procedures at run time. 1) control stack 2) activation tree 3) Procedure 4) Macro,1
+12 The advantage of using parser with valid prefix property is that 1) It detects an error where it has actually occurred2) It detects an error much earlier than its occurrence3) It reports an error as possible4) All of the above,1
+13 The output of a preprocessor is 1) absolute machine language program2) relocatable machine language program3) assembly language program4) a high level language program,1
+14 In SDD ___ attribute depends on the parent node attributes. 1) Synthesized 2) Inherited 3) Synthesized & Inherited both 4) None of them,1
+15 Which of the following loader links the subroutine with mainprogram at run time? 1) Dynamic linking2) Absolute Loader3) Compile and Go loader4) Bootstrap Loader,1
+16 Below given code is given to macro pre-processor as input. Which one is the correct replacement done by pre-processor to a = b + area  30 ) / 2 ;2) a = b + 3.14 * 30 * 30 / 2 ;3) a = b + ( 3.14 * x * x ) / 2 ;4) a = b + ( 3.14 * r * r ) / 2 ;5) a = 3.14 * 30 * 30 ;,2
+17 Translator is the internal memory. 1) True 2) False,1
+18 Python code to Java code conversion can be done by 1) Language Translator2) Preprocessor 3) Language Migrator4) Language Detranslator,1
+"1 Represent the output for the various phases of a compiler withrespect to the following assignment statement: position = initial + rate * 60 Assume the variable declarations given as below. int initial ; float position , rate ;",5
+2 Construct the predictive parsing table for the followinggrammar. S -> aABb A -> c | ^ B -> d | ^ Also parse the input string: acdb,5
+3 Construct SLR,1
+4 (a) Compute FIRST (X) & FOLLOW(X) for the following givengrammar. S -> aBDh B -> cC C -> bC | ^ D -> EF E -> g | ^ F -> f | ^ (b) Eliminate Left Factoring in the following grammar. A->aAB|aA|a B->bB|b,5
+5 Construct an operator precedence table and calculate the values ofoperator precedence functions ( f() and g() ) for all the operatorsin below given grammar. S --> E ^ S | E E --> E + T | E - T | T T --> T * F | T / F | F F --> a,5
+6 Describe in detail the method used in the scanning process tominimize the overhead needed to process an input character. ,5
+1 The single pass assembler received the below assembly code asinput. Write the assembler-generated machine code. Show all datastructures' contents that were utilized in this conversionprocedure as well. ,5
+"2 Symbol Table is an important data structure created and maintainedby the compiler. What kind of data is kept in a symbol table?Additionally, describe the data structures that are used toimplement symbol tables along with their benefits and drawbacks.",5
+3 Design a SDD to display number of 0's in given binary number.,5
+4 List issues in the design of a code generator. Explain reduction instrength and dead code elimination in terms of code optimization. ,5
+5 Generate three address code for the below expression. Also showimplementation ways using (a) Quadruple (b) triple and (c)Indirect triple. Expression: a + ( b * c)* d ^ e,5
+6 Find basic block and draw control graph for following code writtenin higher level language. func(d) { int value=1; for (i=2; i< =d; i++) value=value*i; return value; },5
